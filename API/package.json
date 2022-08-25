@@ -2,10 +2,10 @@
   "name": "testing",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "proxyAPI.js",
   "scripts": {
-    "start": "node server.js",
-    "devStart": "nodemon server.js"
+    "start": "node proxyAPI.js",
+    "devStart": "nodemon proxyAPI.js"
   },
   "keywords": [],
   "author": "",
@@ -21,9 +21,11 @@
     "helmet": "^5.1.0",
     "https": "^1.0.0",
     "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.5.3",
     "morgan": "^1.10.0",
     "node-fetch": "^3.2.6",
     "nodemon": "^2.0.16",
+    "request": "^2.88.2",
     "request-ip": "^2.2.0",
     "tls": "^0.0.1"
   }
